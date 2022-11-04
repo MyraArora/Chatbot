@@ -48,10 +48,10 @@ function output(input){
     product="Your CRP level is completely normal. ";
   }  
   if (text<27 & text>10){
-    product="You have mild inflamation. We advice you to consult a doctor immediately.";
+    product="You have mild inflamation. We advice you to consult a doctor immediately.Please visit https://sites.google.com/view/easy-diagnostics/home for more information.";
   }  
   if (text>26){
-    product="Very high degree of inflamation. You need to consult a doctor urgently. This should be followed by an HRCT scan to determine the level of lung infection. Treatment with steroids may be needed on the advice of the doctor.";
+    product="Very high degree of inflamation. You need to consult a doctor urgently. This should be followed by an HRCT scan to determine the level of lung infection. Treatment with steroids may be needed on the advice of the doctor. Please visit https://sites.google.com/view/easy-diagnostics/home for more information.Please vist https://sites.google.com/u/0/d/1hkMpAqJIC1-ZJIIgvaP6BzQQqxbEH5A-/preview for more information.";
   }  
   addChat(input,product);
 }
